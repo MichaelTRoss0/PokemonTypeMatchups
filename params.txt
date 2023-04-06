@@ -1,0 +1,13 @@
+chart = "gen_6"
+checkWeightings = False
+checkModifications = False
+type1 = 0
+type2 = 0
+typeTera = -1
+ability = ""
+item = ""
+weather = ""
+terrain = ""
+move = ""
+effectsOnSelf = {}
+effectsOnOpponent = {}
