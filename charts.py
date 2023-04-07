@@ -1,6 +1,7 @@
-# This is a series of lookup tables for type matchups
-# To get the result of a type match-up, call one of the following variables with [ATTACKING TYPE, DEFENDING TYPE]
+# This is a series of lookup tables for type matchups, stored as nested tuples.
+# To get the result of a type match-up, call one of the following variables with 'chart[ATTACKING_TYPE][DEFENDING_TYPE]'.
 
+# This represents the type chart used in Pokémon from Generation 6 onwards
 gen_6 = (
     #                 0    1    2    3    4    5    6    7    8    9    10   11   12   13   14   15   16   17
     #                NOR  FIR  WAT  ELE  GRA  ICE  FIG  POI  GRO  FLY  PSY  BUG  ROC  GHO  DRA  DAR  STE  FAI
@@ -44,6 +45,7 @@ gen_6 = (
     #                 0    1    2    3    4    5    6    7    8    9    10   11   12   13   14   15   16   17
 )
 
+# This represents the type chart used in Pokémon from Generation 2 to Generation 5
 gen_2 = (
     #                 0    1    2    3    4    5    6    7    8    9    10   11   12   13   14   15   16
     #                NOR  FIR  WAT  ELE  GRA  ICE  FIG  POI  GRO  FLY  PSY  BUG  ROC  GHO  DRA  DAR  STE
@@ -85,6 +87,9 @@ gen_2 = (
     #                 0    1    2    3    4    5    6    7    8    9    10   11   12   13   14   15   16
 )
 
+# This represents the type chart used in Generation 1
+# NOTE: The value at [13][10] represents how Ghost-type attacks dealt no damage to Psychic-type Pokémon.
+#       This was a coding error, as it was supposed to be super effective, but the error is kept in this chart to maintain in-game accuracy.
 gen_1 = (
     #                 0    1    2    3    4    5    6    7    8    9    10   11   12   13   14
     #                NOR  FIR  WAT  ELE  GRA  ICE  FIG  POI  GRO  FLY  PSY  BUG  ROC  GHO  DRA
