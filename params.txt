@@ -1,13 +1,68 @@
-chart = "gen_6"
-checkWeightings = False
-checkModifications = False
-type1 = 0
-type2 = 0
-typeTera = -1
-ability = ""
-item = ""
-weather = ""
-terrain = ""
-move = ""
-effectsOnSelf = {}
-effectsOnOpponent = {}
+chart = 6
+single_types_only = True
+check_weightings = False
+check_modifications = False
+type_1 = 0
+type_2 = 0
+tera_type = -1
+ability = -1
+item = -1
+weather = -1
+terrain = -1
+move = -1
+effects_on_self = {}
+effects_on_opponent = {}
+effects_on_battle = {}
+
+
+# HOW TO USE THIS FILE
+
+# 1. Do not delete or reorder any of the above parameter lines.
+#    Only edit them to change the parameter after the equal sign with a whitespace (" = ") on either side.
+#    Without the precise formatting, the script will break and cause errors.
+#    If you make a mistake concerning any of this, you can always download this file from its original source and replace it.
+
+# 2. The parameter 'chart' determines which type chart is used for calculations.
+#    Numbers 1, 2, and 6 are expected, but any integer from 0 to 9 inclusive is valid.
+#    Later modifications refer to mechanics introduced across multiple Generations, but any chart may be used regardless of anachronisms.
+
+# 3. The parameter 'single_types_only' determines whether the script only examines typings of a single type (AKA, "monotype").
+#    Expected values are True or False (with capitalization).
+
+# 4. The parameter 'check_weightings' determines whether extra calculations are done or not after initial calculations.
+#    Expected values are True or False (with capitalization).
+
+# 5. The parameter 'check_modifications' determines whether a specified typing has its matchups modified based on a variety of conditions.
+#    Expected values are True or False (with capitalization).
+#    All parameters after this one are only relevant if 'checkModifications' is set to True.
+
+# 6. The parameter 'type_1' and 'type_2' are used to determine which typing should be modified.
+#    Expected values are integers from 0 to 17 inclusive, 0 to 16 inclusive, or 0 to 14 inclusive, depending on which chart is being used.
+#    It is preferred that 'type_1' be less than or equal to 'type_2', but this is not strictly necessary.
+#    To modify a typing with a single type, make 'type_1' and 'type_2' equal to each other.
+#    If 'single_types_only' is set to True, then modifications will not appear when modifying a dual typing.
+#    To see which integers map to which type, please reference params_info.txt.
+
+# 7. The parameter 'tera_type' is used to determine if the modified typing should use a Tera Type, and which one if so.
+#    Expected values are integers from -1 to 17 inclusive, -1 to 16 inclusive, or -1 to 14 inclusive, depending on which chart is being used.
+#    To forego Terastalization, input a value of -1.
+#    To see which integers map to which type, please reference params_info.txt.
+
+# 8. The parameter 'ability' is used to determine which Ability the modified typing should have, if any.
+#    Expected values are integers from -1 to XX inclusive.
+#    To forego having an Ability, input a value of -1.
+#    Only Abilities that directly affect the effectiveness a specific number of types are considered - other effects are ignored.
+#    If all or part of an Ability's effect has a trigger condition (i.e. Flash Fire, Swarm), then the condition is always considered to be met.
+#    To see which integers map to which Ability, please reference params_info.txt.
+
+# 9. The parameter 'item'
+
+# 10. The parameter 'weather'
+
+# 11. The parameter 'terrain'
+
+# 12. The parameter 'move'
+
+# 13. The parameters 'effects_on_self' and 'effects_on_opponent'
+
+# 14. The parameter 'effects_on_battle'
