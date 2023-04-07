@@ -1,0 +1,86 @@
+# TYPES FROM INTEGERS MAP
+0:  NORMAL
+1:  FIRE
+2:  WATER
+3:  ELECTRIC
+4:  GRASS
+5:  ICE
+6:  FIGHTING
+7:  POISON
+8:  GROUND
+9:  FLYING
+10: PSYCHIC
+11: BUG
+12: ROCK
+13: GHOST
+14: DRAGON
+15: DARK
+16: STEEL
+17: FAIRY
+
+
+# ABILITIES (and effects)
+0:  VOLT ABSORB, LIGHTNING ROD, MOTOR DRIVE (Electric-type attacks deal 0x damage to this Pokémon)
+1:  WATER ABSORB, STORM DRAIN (Water-type attacks deal 0x damage to this Pokémon)
+2:  CLOUD NINE, AIR LOCK (negates the effects of weather without clearing it)
+3:  FLASH FIRE (Fire-type attacks deal 0x damage to this Pokémon; the user's Fire-type attacks are boosted by 1.5x when activated)
+4:  WONDER GUARD (attacks that aren't super effective deal 0x damage to this Pokémon)
+5:  LEVITATE (Ground-type attacks deal 0x damage to this Pokémon; this ability can be negated by certain effects)
+6:  THICK FAT (Fire- and Ice-type attacks deal 0.5x damage to this Pokémon)
+7:  OVERGROW (if using a Grass-type move, Attack or Special Attack is boosted by 1.5x when activated)
+8:  BLAZE (if using a Fire-type move, Attack or Special Attack is boosted by 1.5x when activated)
+9:  TORRENT (if using a Water-type move, Attack or Special Attack is boosted by 1.5x when activated)
+10: SWARM (if using a Bug-type move, Attack or Special Attack is boosted by 1.5x when activated)
+11: HEATPROOF (Fire-type attacks deal 0.5x damage to this Pokémon)
+12: DRY SKIN (Water-type attacks deal 0x damage to this Pokémon; Fire-type attacks deal 1.25x damage to this Pokémon)
+13: ADAPTABILITY (the user's same-type attacks are boosted by ~1.33x (1.5x to 2x); while Terastalized, this Ability only affects the Tera Type; if the user's Tera Type is the same as an original type then the Tera Type attack is boosted by 1.5x (1.5x to 2.25x), otherwise it's boosted by 1.33x like before)
+14: NORMALIZE (the user's moves become Normal-type; Normal-type attacks with their type changed this way are boosted by 1.2x; ELECTRIFY and ION DELUGE will change the types of the user's moves to Electric rather than Normal; doesn't affect certain moves)
+15: MOLD BREAKER, TURBOBLAZE, TERAVOLT (the user's moves are unimpeded by the ignorable Ability of the target)
+16: TINTED LENS (the user's "not very effective" attacks are boosted by 2x; this effect is determined only by type matchups)
+17: FILTER, SOLID ROCK (super effective attacks deal 0.75x damage to this Pokémon; this effect is determined only by type matchups)
+18: SCRAPPY (the user's Normal- and Fighting-type attacks deal 1x damage to Ghost-type Pokémon)
+19: SAP SIPPER (Grass-type attacks deal 0x damage to this Pokémon)
+20: REFRIGERATE (the user's Normal-type moves become Ice-type; attacks with their type changed this way are boosted by 1.2x; overrides the effects of ELECTRIFY and ION DELUGE)
+21: PIXILATE (the user's Normal-type moves become Fairy-type; attacks with their type changed this way are boosted by 1.2x; overrides the effects of ELECTRIFY and ION DELUGE)
+22: AERILATE (the user's Normal-type moves become Flying-type; attacks with their type changed this way are boosted by 1.2x; overrides the effects of ELECTRIFY and ION DELUGE)
+23: WATER BUBBLE (Fire-type attacks deal 0.5x damage to this Pokémon; the user's Water-type attacks are boosted by 2x)
+24: STEELWORKER (the user's Steel-type attacks are boosted by 1.5x)
+25: GALVANIZE (the user's Normal-type moves become Electric-type; attacks with their type changed this way are boosted by 1.2x; prioritized over the effects of ELECTRIFY and ION DELUGE)
+26: FLUFFY (Fire-type attacks deal 2x damage to this Pokémon)
+27: PRISM ARMOR (super effective attacks deal 0.75x damage to this Pokémon; this effect is determined only by type matchups; non-ignorable ability)
+28: NEUROFORCE (the user's super effective attacks are boosted by 1.25x; this effect is only determined by type matchups)
+29: RIPEN (doubles the effects of berries the user eats)
+30: TRANSISTOR (the user's Electric-type attacks are boosted by 1.5x)
+31: DRAGON'S MAW (the user's Dragon-type attacks are boosted by 1.5x)
+32: PURIFYING SALT (Ghost-type attacks deal 0.5x damage to this Pokémon)
+33: WELL-BAKED BODY (Fire-type attacks deal 0x damage to this Pokémon)
+34: ROCKY PAYLOAD (the user's Rock-type attacks are boosted by 1.5x)
+35: ELECTROMORPHOSIS (the user's Electric-type attacks are boosted by ?x when activated)
+36: EARTH EATER (Ground-type attacks deal 0x damage to this Pokémon)
+
+
+# ITEMS (and effects)
+0:
+
+
+# WEATHERS (and effects)
+0:
+
+
+# TERRAINS (and effects)
+0:
+
+
+# MOVES (and effects)
+0:
+
+
+# OTHER EFFECTS THAT CAN BE APPLIED TO POKÉMON
+0:
+
+# OTHER BATTLE EFFECTS
+0:
+?: DARK AURA
+?: FAIRY AURA
+?: AURA BREAK
+?: STEELY SPIRIT
